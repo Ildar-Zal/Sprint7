@@ -1,6 +1,6 @@
 package org.example;
 
-public class Card {
+public class Courier {
     private  String firstName;
     // ключ name стал полем типа String
     private String login;
@@ -8,14 +8,17 @@ public class Card {
     private String password;
 
 // это ещё не весь код: тут будет продолжение
-public Card(String login, String password,String firstName) {
+public Courier(String login, String password, String firstName) {
     this.login = login;
     this.password = password;
     this.firstName= firstName;
 }
-    public Card(String login,String firstName) {
+    public Courier(String login, String firstName) {
         this.login = login;
         this.firstName= firstName;
+    }
+    public Courier (String password) {
+        this.password=password;
     }
     public String getLogin() {
         return login;
@@ -41,6 +44,6 @@ public Card(String login, String password,String firstName) {
         this.password = password;
     }
 
-    public Card() {
+    public Courier() {
     }
 }

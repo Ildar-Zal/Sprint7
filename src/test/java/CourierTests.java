@@ -5,7 +5,7 @@ import org.junit.Before;
 import org.junit.Test;
 
 
-public class CourierTest {
+public class CourierTests {
 
     private final CourierGenerator generator = new CourierGenerator();
     private final CourierClient client = new CourierClient();
